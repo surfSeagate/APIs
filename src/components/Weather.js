@@ -27,7 +27,7 @@ class Weather extends Component {
     const city = e.target.elements.city.value;
 
     const api_call = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=${API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=${API_KEY}`
     );
     const data = await api_call.json();
     if (city) {
