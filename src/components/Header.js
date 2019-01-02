@@ -18,12 +18,12 @@ const Header = () => (
     </Link>
     <ul className="navbar-nav">
       <li className="nav-item nav">
-        <Link to="/weather" className="nav-link" style={{ color: "blue" }}>
+        <Link to="/weather" className="nav-link" style={{ color: "#00CED1" }}>
           Weather
         </Link>
       </li>
       <li className="nav-item nav">
-        <Link to="/surf" className="nav-link " style={{ color: "blue" }}>
+        <Link to="/surf" className="nav-link " style={{ color: "#00CED1" }}>
           Surf
         </Link>
       </li>
