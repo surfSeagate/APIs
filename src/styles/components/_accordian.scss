@@ -1,0 +1,55 @@
+.ui-right {
+  margin-right: 20px;
+}
+.ui-left {
+  margin-left: 30px;
+}
+.styling-right {
+  margin-right: 90px;
+}
+.styling-left {
+  margin-left: 30px;
+}
+
+.server-right {
+  margin-right: 40px;
+}
+.server-left {
+  margin-left: 30px;
+}
+
+.db-right {
+  margin-right: 50px;
+}
+.db-left {
+  margin-left: 30px;
+}
+
+@media (min-width: 45rem) {
+  .ui-right {
+    margin-right: 20px;
+  }
+  .ui-left {
+    margin-left: 690px;
+  }
+  .styling-right {
+    margin-right: 90px;
+  }
+  .styling-left {
+    margin-left: 690px;
+  }
+
+  .server-right {
+    margin-right: 40px;
+  }
+  .server-left {
+    margin-left: 700px;
+  }
+
+  .db-right {
+    margin-right: 50px;
+  }
+  .db-left {
+    margin-left: 700px;
+  }
+}

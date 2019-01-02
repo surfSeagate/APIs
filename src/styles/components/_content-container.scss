@@ -1,0 +1,79 @@
+.content-container {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 0 $m-size;
+}
+
+.page-background {
+  background: none;
+}
+
+.page-background-webdesign {
+  background-image: url("/images/smoke-blue.jpg");
+  // background-image: url("/images/waterdroppng.png");
+  height: 800px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-card {
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-right: 10px;
+  width: 700px;
+  box-shadow: 4px 2px;
+  color: #006bb3;
+}
+.about-container {
+  padding: 2rem;
+}
+
+.contact-card {
+  border-radius: 4px;
+  margin-bottom: 500px;
+  // margin-left: 600px;
+  width: 250px;
+  box-shadow: 4px 2px;
+  color: #006bb3;
+  display: flex;
+}
+
+.container-top {
+  margin-top: 80px;
+}
+
+.contact-container-top {
+  margin-top: 300px;
+}
+
+.services-title {
+  font-size: 20px;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+@media (min-width: 45rem) {
+  .contact-card {
+    border-radius: 4px;
+    margin-top: 350px;
+    margin-left: 600px;
+    width: 500px;
+    box-shadow: 4px 2px;
+    color: #006bb3;
+  }
+  .contact-container-top {
+    margin-top: 400px;
+  }
+
+  .page-background {
+    background-image: url("/images/waterwave.jpg");
+    // background-image: url("/images/oceanblue.jpg");
+    height: 800px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
