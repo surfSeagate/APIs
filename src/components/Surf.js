@@ -31,16 +31,16 @@ class Surf extends Component {
 
     const site = e.target.elements.site.value;
 
-    console.log(site);
+    // console.log(site);
 
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
     const api_call = await fetch(
       proxyurl +
-        `https://magicseaweed.com/api/c978ab102627ea2b7e92182e2c6768cd/forecast/?spot_id=${site}`
+        `https://magicseaweed.com/api/c978ab102627ea2b7e92182e2c6768cd/forecast/?spot_id=${site} { mode: 'no-cors' }`
     );
     const data = await api_call.json();
-    console.log(data[0]);
+    // console.log(data[0]);
 
     let surfLocation;
 
@@ -77,7 +77,7 @@ class Surf extends Component {
   };
 
   render() {
-    console.log(this.state.chartSwell);
+    //  console.log(this.state.chartSwell);
     return (
       <div>
         <SurfForm getSurf={this.getSurf} />

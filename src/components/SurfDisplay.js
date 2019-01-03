@@ -93,7 +93,7 @@ const SurfDisplay = props => {
             className="carousel-control-prev"
             data-slide="prev"
           >
-            <span clasName="carousel-control-prev-icon" />
+            <span className="carousel-control-prev-icon" />
           </a>
 
           <a
