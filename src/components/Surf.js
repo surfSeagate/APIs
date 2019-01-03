@@ -33,10 +33,11 @@ class Surf extends Component {
 
     console.log(site);
 
-    // const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    //proxyurl +
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+
     const api_call = await fetch(
-      `https://magicseaweed.com/api/c978ab102627ea2b7e92182e2c6768cd/forecast/?spot_id=${site}`
+      proxyurl +
+        `https://magicseaweed.com/api/c978ab102627ea2b7e92182e2c6768cd/forecast/?spot_id=${site}`
     );
     const data = await api_call.json();
     console.log(data[0]);
