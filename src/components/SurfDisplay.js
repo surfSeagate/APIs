@@ -11,7 +11,7 @@ const SurfDisplay = props => {
     <div className="container">
       {props.location && (
         <div className="row">
-          <div className="col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded">
+          <div className="col-md-6 mx-auto text-center bg-primary  rounded">
             {props.location && (
               <h1 className="text-light">{props.location} </h1>
             )}
@@ -54,7 +54,7 @@ const SurfDisplay = props => {
       {props.location && (
         <div
           id="slider3"
-          className="carousel slide mb-5  col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded  "
+          className="carousel slide  col-md-6 mx-auto text-center bg-primary mt-2 p-5 rounded  "
           data-ride="carousel"
         >
           <ol className="carousel-indicators">
@@ -64,7 +64,7 @@ const SurfDisplay = props => {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <h3>Swell</h3>
+              <h3 style={{ color: "white" }}>Swell</h3>
               <img
                 className="d-block img-fluid"
                 src={props.chartSwell}
@@ -72,7 +72,7 @@ const SurfDisplay = props => {
               />
             </div>
             <div className="carousel-item">
-              <h3>Period</h3>
+              <h3 style={{ color: "white" }}>Period</h3>
               <img
                 className="d-block img-fluid"
                 src={props.chartPeriod}
@@ -80,7 +80,7 @@ const SurfDisplay = props => {
               />
             </div>
             <div className="carousel-item">
-              <h3>Wind</h3>
+              <h3 style={{ color: "white" }}>Wind</h3>
               <img
                 className="d-block img-fluid"
                 src={props.chartWind}

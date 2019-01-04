@@ -5,7 +5,7 @@ const WeatherDisplay = props => {
     <div className="container">
       {props.city && (
         <div className="row">
-          <div className="col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded">
+          <div className="col-md-6 mx-auto text-center bg-primary  p-5 rounded">
             {props.city && <h1 className="text-light">{props.city} </h1>}
 
             {props.description && (
