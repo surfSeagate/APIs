@@ -7,9 +7,10 @@ const About = () => (
     </div>
 
     <div>
-      <h3> This site uses ES6 Async - Await fetching code.</h3>
+      <h3> This site uses ES7 Async - Await for fetching.</h3>
     </div>
     <div>
+      <hr />
       <h3>API sources:</h3>
     </div>
 
